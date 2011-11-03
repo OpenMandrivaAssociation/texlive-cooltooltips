@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/cooltooltips
+# catalog-date 2007-03-05 15:26:58 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-cooltooltips
 Version:	1.0
 Release:	1
@@ -46,6 +52,7 @@ LaTeX FAQ to indicate the question that each hyperlink answers.
 #- source
 %doc %{_texmfdistdir}/source/latex/cooltooltips/cooltooltips.dtx
 %doc %{_texmfdistdir}/source/latex/cooltooltips/cooltooltips.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ LaTeX FAQ to indicate the question that each hyperlink answers.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
