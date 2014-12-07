@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-cooltooltips
 Version:	1.0
-Release:	8
+Release:	9
 Summary:	Associate a pop-up window and tooltip with PDF hyperlinks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cooltooltips
