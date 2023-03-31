@@ -1,6 +1,6 @@
 Name:		texlive-cooltooltips
 Version:	60201
-Release:	1
+Release:	2
 Summary:	Associate a pop-up window and tooltip with PDF hyperlinks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cooltooltips
