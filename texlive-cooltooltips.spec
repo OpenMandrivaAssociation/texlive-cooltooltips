@@ -3,7 +3,7 @@ Version:	60201
 Release:	2
 Summary:	Associate a pop-up window and tooltip with PDF hyperlinks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cooltooltips
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/cooltooltips
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cooltooltips.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cooltooltips.doc.r%{version}.tar.xz
